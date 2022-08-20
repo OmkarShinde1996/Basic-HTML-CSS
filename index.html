@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--changing tab title-->
+        <title>My Coding Website</title>
+    </head>
+    <body>
+        <header>
+            <hr>
+            <!--Linking other pages-->
+            <a href="youtube.html">Go to my site page</a>
+            <hr>
+        </header>
+        <!--Header Tags-->
+        <h1>Programming Language</h1>
+        <h2>Programming Language</h2>
+        <h3>Programming Language</h3>
+        <h4>Programming Language</h4>
+        <h5>Programming Language</h5>
+        <h6>Programming Language</h6>
+        <hr>
+        <!--Paragraph Tags-->
+        <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+        <hr>
+        <!--embeding a youtube video in HTML page-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FNGoExJlLQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--Breaking the line-->
+        <br>
+        <hr>
+
+        <!--embeding image on HTML page-->
+        <!--alt tag is for crawlers to identify the image-->
+        <img width="560" height="315" src="https://images.ctfassets.net/3s5io6mnxfqz/wfAz3zUBbrcf1eSMLZi8u/c03ac28c778813bd72373644ee8b8b02/AdobeStock_364059453.jpeg" alt="golden chess board">
+        <br>
+        <hr>
+        <!--making hyperlinks-->
+        <h4>Below link open on this same tab</h4>
+        <a href="https://www.linkedin.com">Got to linkedin</a>
+        <br>
+        <!--sending on new tab-->
+        <h4>Below link open on the <a href="https://www.linkedin.com" target="_blank">new</a> tab</h4>
+        <a href="https://www.linkedin.com" target="_blank">Got to linkedin</a>
+        <br>
+
+        <!--To make a line or a saparator-->
+        <hr>
+
+        <!--Lists-->
+        <h2>Lists</h2>
+        <!--Unorder Lists-->
+        <h3>UnOrder Lists</h3>
+        <ul>
+            <li>Javascript</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Scala</li>
+        </ul>
+        <hr>
+        <!--Unorder Lists-->
+        <h3>Order Lists</h3>
+        <ol>
+            <li>Javascript</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Scala</li>
+        </ol>
+        <hr>
+
+        <!--Creating a form on HTML page-->
+        <!--/ means your website.com-->
+        <!--/about means your website.com/about-->
+        <!--method means API method it will be GET or POST or DELETE-->
+        <!--Here the input type will add the validation for that type like for email, email validation
+        and for password password validation will be added like password will get encrypted into "."-->
+        <h3>Creating a basic form</h3>
+        <form action="" method="get">
+            <div>
+                <label for="inputName">Enter Your Name : 
+                    <input type="text" name="name" id="inputName">
+                </label>
+            </div>
+            <div>
+                <label for="inputEmail">Enter Your Email : 
+                    <input type="email" name="email" id="inputEmail">
+                </label>
+            </div>    
+            <div>
+                <label for="inputPassword">Enter Your Password : 
+                    <input type="password" name="password" id="inputPassword">
+                </label>
+            </div>
+            <!--Creating dropdown menu-->
+            <div>
+                <select name="Cars" id="Cars">
+                    <option value="Volvo">Volvo</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedies">Mercedies</option>
+                    <option value="Mahindra">Mahindra</option>
+                </select>
+            </div>
+            <!--Creating description input box-->
+            <div>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <!--Creating submit button-->
+            <div>
+                <label for="submitButton"> 
+                    <input type="submit" value="Submit your form" name="submit" id="submitButton">
+                </label>
+            </div>
+        </form>
+
+        <hr>
+        <!--Creating a table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Omkar</td>
+                    <td>omkar@gmail.com</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>Aniket</td>
+                    <td>aniket@gmail.com</td>
+                    <td>27</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <!--Creating dropdown menu-->
+        <h3>Creating dropdown menu</h3>
+        <div>
+            <select name="Cars" id="Cars">
+                <option value="Volvo">Volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedies">Mercedies</option>
+                <option value="Mahindra">Mahindra</option>
+            </select>
+        </div>
+        
+        <hr>
+        
+
+    </body>
+</html>
