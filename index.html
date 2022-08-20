@@ -41,6 +41,14 @@
         <img width="560" height="315" src="https://images.ctfassets.net/3s5io6mnxfqz/wfAz3zUBbrcf1eSMLZi8u/c03ac28c778813bd72373644ee8b8b02/AdobeStock_364059453.jpeg" alt="golden chess board">
         <br>
         <hr>
+        <!--embeding video on HTML page-->
+        <!-- We use attribute controls to provide video controls to play/pause the video -->
+        <!-- Used loop to play video in loop -->
+        <!-- Used autoplay to play video on opening the web page -->
+        <video src="mtVideo.mov" width="560" height="315" controls autoplay loop></video>
+        
+        <br>
+        <hr>
         <!--making hyperlinks-->
         <h4>Below link open on this same tab</h4>
         <a href="https://www.linkedin.com">Got to linkedin</a>
@@ -86,17 +94,17 @@
         <form action="" method="get">
             <div>
                 <label for="inputName">Enter Your Name : 
-                    <input type="text" name="name" id="inputName">
+                    <input type="text" name="name" id="inputName" placeholder="name">
                 </label>
             </div>
             <div>
                 <label for="inputEmail">Enter Your Email : 
-                    <input type="email" name="email" id="inputEmail">
+                    <input type="email" name="email" id="inputEmail" placeholder="email">
                 </label>
             </div>    
             <div>
                 <label for="inputPassword">Enter Your Password : 
-                    <input type="password" name="password" id="inputPassword">
+                    <input type="password" name="password" id="inputPassword" placeholder="password">
                 </label>
             </div>
             <!--Creating dropdown menu-->
@@ -107,6 +115,24 @@
                     <option value="Mercedies">Mercedies</option>
                     <option value="Mahindra">Mahindra</option>
                 </select>
+            </div>
+            <!-- Creating radio buttons -->
+            <div>
+                <label for="selectGender1">Gender : 
+                    <input type="radio" value="Male" name="gender" id="selectGender1">Male
+                </label>
+                <label for="selectGender">
+                    <input type="radio" value="Female" name="gender" id="selectGender">Female
+                </label>
+            </div>
+            <!-- Creating checkboxes -->
+            <div>
+                <label for="selectbox1">Gender : 
+                    <input type="checkbox" value="Audi" name="car" id="selectbox1">Audi
+                </label>
+                <label for="selectbox">
+                    <input type="checkbox" value="BMW" name="car" id="selectbox">BMW
+                </label>
             </div>
             <!--Creating description input box-->
             <div>
@@ -122,7 +148,8 @@
 
         <hr>
         <!--Creating a table-->
-        <table>
+        <h3>Creating tables</h3>
+        <table><caption>User data</caption>
             <thead>
                 <tr>
                     <th>Name</th>
@@ -175,7 +202,7 @@
         <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima doloremque accusantium sint, exercitationem praesentium ex aliquid totam? Impedit quo recusandae rerum possimus, voluptatum in laboriosam itaque, quisquam, vitae ut iure?</article>
         <hr>
         <!-- We can use aside tag to place ads or the content that is not related to our main content -->
-        <aside>This is an ad</aside>
+        <aside>This is an advertise space</aside>
         <hr>
         <!-- We use div as a container. It is a Block element (takes full width of our screen) -->
         <div>
@@ -187,8 +214,11 @@
         <!-- We use span tag to get expected space of a container (takes width as per size) -->
         <span> this is under span tag</span>    
         <hr>
-        
         </main>
+
+        <footer>
+            <p style="text-align: center;">Omkar &trade; | 2022 &copy;</p>
+        </footer>
         
     </body>
 </html>
