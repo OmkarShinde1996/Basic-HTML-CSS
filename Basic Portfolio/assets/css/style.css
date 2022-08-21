@@ -60,6 +60,12 @@ img{
     color: var(--color-base);
 }
 
+.rounded-3 {
+    margin: auto;
+    border-radius: var(--bs-border-radius-lg)!important;
+}
+
+
 .bg-base{
     background-color: var(--color-base);
 }
