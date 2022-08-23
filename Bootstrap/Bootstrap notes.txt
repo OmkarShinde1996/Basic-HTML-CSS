@@ -1,0 +1,51 @@
+py-5 > Padding top & below by 5
+px-5 > padding both side by 5
+ps-5 > left padding by 5
+pe-5 > right padding by 5
+pb-5 > bottom padding by 5
+pt-5 > top padding by 5
+my-5 > margin top & below by 5
+mx-5 > margin both side by 5
+mb-5 > bottom margin by 5
+mt-5 > top margin by 5
+lg > large screen
+md > medium screen
+sm > small screen
+col-lg-3 > large screen column 3
+col-md-3 > medium screen column 3
+w-75 > width 75% of screen
+h-50 > height 50% of screen
+img-fluid > to make image responsive
+rounded > used to round the corners (rounded or rounded-4)
+float-start, float-end, mx-auto d-block > used to align the content or image (left, right, center)
+
+=====================================================================================================================================================
+
+The classes are named using the format {property}{sides}-{size} for xs and {property}{sides}-{breakpoint}-{size} for sm, md, lg, xl, and xxl.
+
+Where property is one of:
+
+m - for classes that set margin
+p - for classes that set padding
+
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+
+Where size is one of:
+
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 - (by default) for classes that set the margin or padding to $spacer * .25
+2 - (by default) for classes that set the margin or padding to $spacer * .5
+3 - (by default) for classes that set the margin or padding to $spacer
+4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+5 - (by default) for classes that set the margin or padding to $spacer * 3
+auto - for classes that set the margin to auto
+
+=====================================================================================================================================================
